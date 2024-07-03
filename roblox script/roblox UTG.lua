@@ -1,4 +1,4 @@
--- Version: 3.1
+-- Version: 4.5
  
  
 -- no annoying errors :|
@@ -173,7 +173,7 @@ MAXSection:NewToggle("ANTI-corlor change", "the corlor is not changer if you hav
     end
 end)
 
-MAXSection:NewToggle("Vote PUTIN", "Vote PUTIN", function(state)
+MAXSection:NewToggle("Vote PUTIN (note:from year 2018)", "Vote PUTIN", function(state)
     if state then
         print("Vote PUTIN")
     else
